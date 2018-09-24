@@ -11,13 +11,13 @@ import SurflineRegion from './components/SurflineRegion'
 class App extends Component {
 
   render() {
-    const si_lbi = <SwellInfoSpot name="LBI" url="https://www.swellinfo.com/surf-forecast/long-beach-island-new-jersey" />
+    const si_lbi = <SwellInfoSpot name="LBI" url="https://www.swellinfo.com/surf-forecast/long-beach-island-new-jersey#fcst-days" />
 
-    const si_belmar = <SwellInfoSpot name="Belmar" url="https://www.swellinfo.com/surf-forecast/monmouth-new-jersey" />
+    const si_belmar = <SwellInfoSpot name="Belmar" url="https://www.swellinfo.com/surf-forecast/monmouth-new-jersey#fcst-days" />
 
-    const si_ocean_city = <SwellInfoSpot name="Ocean City" url="https://www.swellinfo.com/surf-forecast/ocean-city-new-jersey-se" />
+    const si_ocean_city = <SwellInfoSpot name="Ocean City" url="https://www.swellinfo.com/surf-forecast/ocean-city-new-jersey-se#fcst-days" />
 
-    const si_cape_may = <SwellInfoSpot name="Cape May" url="https://www.swellinfo.com/surf-forecast/cape-may-new-jersey" />
+    const si_cape_may = <SwellInfoSpot name="Cape May" url="https://www.swellinfo.com/surf-forecast/cape-may-new-jersey#fcst-days" />
 
     return (
       <Router>
