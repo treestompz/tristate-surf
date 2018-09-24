@@ -11,7 +11,7 @@ class NavbarComp extends Component {
     return (
       <header>
 
-        <Link to="/"><Button>Home</Button></Link>
+        <Link to="/home"><Button>Home</Button></Link>
 
         |&nbsp;
 
@@ -23,29 +23,23 @@ class NavbarComp extends Component {
           <Button>Belmar</Button>
         </Link>
 
-        <Link to="/swellinfo/long-beach">
-          <Button>Long Beach</Button>
+        <Link to="/swellinfo/ocean-city">
+          <Button>Ocean City</Button>
         </Link>
 
-        <Link to="/swellinfo/rockaway">
-          <Button>Rockaway</Button>
-        </Link>
-
-        |&nbsp;
-
-        <Link to="/surfline-region/nj">
-          <Button bsStyle="primary">New Jersey</Button>
-        </Link>
-
-        <Link to="/surfline-region/ny">
-          <Button bsStyle="primary">New York</Button>
+        <Link to="/swellinfo/cape-may">
+          <Button>Cape May</Button>
         </Link>
 
         |&nbsp;
 
-        <Link to="/surfline-cam/lbi">
-          <Button bsStyle="info">LBI</Button>
-        </Link>
+        <a href="https://thesurfersview.com/cams_http/lbi.php">
+          <Button bsStyle="primary">Holyoke 🎥</Button>
+        </a>
+
+        <a href="https://thesurfersview.com/cams_http/cape_may.php">
+          <Button bsStyle="primary">The Cove 🎥</Button>
+        </a>
 
       </header>
     )
