@@ -36,6 +36,10 @@ class NavbarComp extends Component {
         <a href="https://thesurfersview.com/cams_http/lbi.php">
           <Button bsStyle="primary">Holyoke 🎥</Button>
         </a>
+      
+        <a href="https://thesurfersview.com/cams_http/belmar.php">
+          <Button bsStyle="primary">Belmar 🎥</Button>
+        </a>
 
         <a href="https://thesurfersview.com/cams_http/cape_may.php">
           <Button bsStyle="primary">The Cove 🎥</Button>
