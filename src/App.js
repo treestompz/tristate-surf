@@ -21,7 +21,7 @@ class App extends Component {
       <Router>
         <div className="App">
 
-          <Route exact path="/" render={() => si_lbi} />
+          <Route exact path="/" render={() => surfline_nj} />
 
           <Route path="/home" component={HomePage} />
           <Route path="/swellinfo/lbi" render={() => si_lbi} />
