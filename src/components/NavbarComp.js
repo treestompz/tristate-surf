@@ -32,7 +32,13 @@ class NavbarComp extends Component {
         </Link>
 
         |&nbsp;
-      
+
+        <Link to="/surfline-region/nj">
+          <Button bsStyle="primary">New Jersey</Button>
+        </Link>
+
+        |&nbsp;
+
         <a href="https://thesurfersview.com/cams_http/ship-bottom.php">
           <Button bsStyle="primary">Ship Bottom 🎥</Button>
         </a>
@@ -40,7 +46,7 @@ class NavbarComp extends Component {
         <a href="https://thesurfersview.com/cams_http/lbi.php">
           <Button bsStyle="primary">Holyoke 🎥</Button>
         </a>
-      
+
         <a href="https://thesurfersview.com/cams_http/belmar.php">
           <Button bsStyle="primary">Belmar 🎥</Button>
         </a>
